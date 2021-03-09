@@ -57,7 +57,7 @@ import {
   ETH_SWAPS_TOKEN_OBJECT,
   SWAP_FAILED_ERROR,
   SWAPS_FETCH_ORDER_CONFLICT,
-} from '../../helpers/constants/swaps';
+} from '../../../../shared/constants/swaps';
 import { TRANSACTION_CATEGORIES } from '../../../../shared/constants/transaction';
 
 const GAS_PRICES_LOADING_STATES = {
