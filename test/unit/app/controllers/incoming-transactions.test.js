@@ -24,7 +24,7 @@ import { NETWORK_EVENTS } from '../../../../app/scripts/controllers/network';
 const IncomingTransactionsController = proxyquire(
   '../../../../app/scripts/controllers/incoming-transactions',
   {
-    '../lib/random-id': { default: () => 54321 },
+    '../../../shared/modules/random-id': { default: () => 54321 },
   },
 ).default;
 
